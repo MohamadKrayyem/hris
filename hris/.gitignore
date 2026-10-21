@@ -1,0 +1,23 @@
+# Dependencies and build output
+node_modules/
+dist/
+bin/
+obj/
+publish/
+
+# Editor and IDE settings
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.pubxml.user
+
+# Secrets (never commit these)
+.env
+.env.*
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
